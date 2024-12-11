@@ -7,7 +7,7 @@ body {
 .maintitle {
     color: rgb(247, 215, 215);
     font-family: "Abril Fatface", serif;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: 400;
     font-style: normal;
     z-index: 10; /* テキストを画像より前面に */
@@ -19,9 +19,9 @@ body {
 }
 
 .subtext {
-    color: rgb(238, 238, 238);
+    color: hsl(0, 0%, 90%);
     font-family: "ab-sekka", sans-serif;
-    font-size: 1%;
+    font-size: 7px;
     letter-spacing: 0px;
     font-style: normal;
     max-width: 1500%;
@@ -31,41 +31,41 @@ body {
 
 /* 画像の位置をabsoluteで指定 */
 .sharp-1 {
-    width: 50%;
+    width: 48%;
     position: absolute; /* 親要素に対して絶対位置を設定 */
-    top: 200px; /* 画像のY軸位置 */
-    left: 20px; /* 画像のX軸位置 */
+    top: 120px; /* 画像のY軸位置 */
+    left: 10px; /* 画像のX軸位置 */
     z-index: 1; /* sharp-1画像の階層を上げる */
-}
-
-.sharp-2 {
-    width: 10%;
-    position: absolute;
-    top: 400px; /* sharp-2のY軸位置 */
-    left: 1100px; /* sharp-2のX軸位置 */
-    z-index: 2; /* sharp-2画像の階層を上げる */
 }
 
 .sharp-3 {
     width: 10%;
     position: absolute;
-    top: 200px; /* sharp-3のY軸位置 */
-    left: 1500px; /* sharp-3のX軸位置 */
+    top: 150px; /* sharp-3のY軸位置 */
+    left: 1300px; /* sharp-3のX軸位置 */
     z-index: 3; /* sharp-3画像の階層を上げる */
+}
+
+.sharp-2 {
+    width: 10%;
+    position: absolute;
+    top: 300px; /* sharp-2のY軸位置 */
+    left: 900px; /* sharp-2のX軸位置 */
+    z-index: 2; /* sharp-2画像の階層を上げる */
 }
 
 .sharp-4 {
     width: 10%;
     position: absolute;
-    top: 600px; /* sharp-4のY軸位置 */
-    left: 1500px; /* sharp-4のX軸位置 */
+    top: 500px; /* sharp-4のY軸位置 */
+    left: 1300px; /* sharp-4のX軸位置 */
     z-index: 4; /* sharp-4画像の階層を上げる */
 }
 .sign {
 	font-weight: 100;
 	font-size: 155%;
     position: absolute;
-    top: 400px; /* sharp-4のY軸位置 */
-    left: 950px; /* sharp-4のX軸位置 */
+    top: 300px; /* sharp-4のY軸位置 */
+    left: 680px; /* sharp-4のX軸位置 */
     z-index: 5; /* sharp-4画像の階層を上げる */
 }
