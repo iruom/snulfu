@@ -1,9 +1,10 @@
-body{
+body {
 	background: rgb(0,0,0);
 	color: white;
 	margin: 100px;
 }
-.maintittle{
+
+.maintitle {
 	font-family: "Playwrite FR Trad Guides", cursive;
 	font-weight: 400;
 	font-style: normal;
