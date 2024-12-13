@@ -219,9 +219,9 @@ body {
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 1cap;
     /* 必要に応じて調整 */
-    font-weight: 100;
+    font: weight 100px;
     /* 必要に応じて調整 */
 }
 
