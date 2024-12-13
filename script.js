@@ -31,3 +31,4 @@ function scrollByDelta(container, delta) {
 // sharp_table_box_1 と sharp_table_box_2 にスクロールイベントを追加
 const containers = document.querySelectorAll('.sharp_table_box_1, .sharp_table_box_2');
 containers.forEach(container => addScrollEvent(container));
+

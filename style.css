@@ -6,7 +6,8 @@ body {
     background-color: black;
     color: rgb(0, 0, 0);
 }
-.SNULUF {
+
+.SNULFU {
     margin: 100px;
 }
 
@@ -23,10 +24,17 @@ body {
     /* テキストの位置を調整 */
 }
 
+/* maintitleのselection設定 */
+.maintitle ::selection {
+    color: rgb(0, 0, 0);
+    background-color: rgb(165, 167, 168);
+}
+
 .TextImageGroup {
     position: relative;
     /* 親要素にrelativeを設定 */
 }
+
 
 .subtext {
     color: hsl(0, 0%, 62%);
@@ -41,6 +49,12 @@ body {
     /* 親要素にrelative */
     z-index: 10;
     /* テキストの上に画像を表示するため */
+}
+
+.subtext::selection {
+    color: rgb(0, 0, 0);
+    background-color: rgb(151, 195, 206);
+    width: -150px;
 }
 
 /* sharpbox_1の配置 */
@@ -61,7 +75,7 @@ body {
     margin: 0px;
     /* コンテナを中央に配置 */
     margin-top: 40px;
-    background-color: rgba(0, 0, 0, 0.504);
+    background-color: rgb(0, 0, 0);
     /* 背景を薄い黒に */
     border-radius: 0px;
     /* コンテナの角を丸く */
@@ -115,6 +129,13 @@ body {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     width: 100%;
+}
+
+/* sharpbox_1のselection設定 */
+
+.sharp_table_box_1 ::selection {
+    color: rgb(179, 253, 235);
+    background-color: rgba(137, 150, 147, 0.4);
 }
 
 /* sharpbox_2の配置 */
@@ -185,6 +206,13 @@ body {
     width: 100%;
 }
 
+/* sharpbox_2のselection設定 */
+
+.sharp_table_box_2 ::selection {
+    color: rgb(11, 9, 7);
+    background-color: rgba(157, 131, 111, 0.4);
+}
+
 .sharp_table_box_3 {
     margin-top: 25px;
     display: flex;
@@ -202,7 +230,14 @@ body {
     z-index: 1;
 }
 
-.snlufulogo {
+/* sharpbox_3のselection設定 */
+
+.sharp_table_box_3 ::selection {
+    color: rgb(179, 253, 235);
+    background-color: rgba(10, 23, 27, 0.492);
+}
+
+.snulfulogo {
     position: absolute;
     top: 50%;
     /* 親要素の50%の位置 */
@@ -233,4 +268,21 @@ body {
     left: 50%;
     line-height: 0px;
     font-size: 14px;
+}
+
+/* snulfulogoのselection設定 */
+
+.logo::selection {
+    color: rgb(0, 0, 0);
+    background-color: rgb(162, 166, 168);
+}
+
+.sublogo::selection {
+    color: rgb(0, 0, 0);
+    background-color: rgb(162, 166, 168);
+}
+
+.snulfulogo::selection {
+    color: rgb(0, 0, 0);
+    background-color: rgb(162, 166, 168);
 }
