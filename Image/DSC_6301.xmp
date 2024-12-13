@@ -47,7 +47,7 @@
    xmp:CreatorTool="Ver.1.00"
    xmp:ModifyDate="2005-01-23T23:38:59.10"
    xmp:CreateDate="2005-01-23T23:38:59.10"
-   xmp:MetadataDate="2024-12-12T23:52:39+09:00"
+   xmp:MetadataDate="2024-12-13T10:43:13+09:00"
    aux:SerialNumber="-1000fd7"
    aux:LensInfo="180/10 2000/10 35/10 63/10"
    aux:Lens="18.0-200.0 mm f/3.5-6.3"
@@ -59,26 +59,26 @@
    photoshop:EmbeddedXMPDigest="00000000000000000000000000000000"
    xmpMM:DocumentID="F1FC45E3C214FEE28C6CCDC38BACD325"
    xmpMM:OriginalDocumentID="F1FC45E3C214FEE28C6CCDC38BACD325"
-   xmpMM:InstanceID="xmp.iid:f05271cf-d193-5c4b-8377-c40a86de6953"
+   xmpMM:InstanceID="xmp.iid:ca8e33eb-b54e-654b-9008-0bada25c2d9e"
    dc:format="image/x-nikon-nef"
    crd:CameraProfile="Camera Standard"
    crd:LookName=""
    crs:Version="16.3"
    crs:ProcessVersion="15.4"
    crs:WhiteBalance="Custom"
-   crs:Temperature="7399"
+   crs:Temperature="6231"
    crs:Tint="-7"
-   crs:Exposure2012="-0.88"
-   crs:Contrast2012="+41"
+   crs:Exposure2012="-1.62"
+   crs:Contrast2012="-5"
    crs:Highlights2012="+34"
    crs:Shadows2012="-24"
-   crs:Whites2012="+23"
-   crs:Blacks2012="+51"
+   crs:Whites2012="+25"
+   crs:Blacks2012="+63"
    crs:Texture="+9"
    crs:Clarity2012="+56"
    crs:Dehaze="+21"
    crs:Vibrance="-8"
-   crs:Saturation="+5"
+   crs:Saturation="-100"
    crs:ParametricShadows="0"
    crs:ParametricDarks="0"
    crs:ParametricLights="0"
@@ -86,10 +86,7 @@
    crs:ParametricShadowSplit="25"
    crs:ParametricMidtoneSplit="50"
    crs:ParametricHighlightSplit="75"
-   crs:Sharpness="6"
-   crs:SharpenRadius="+1.0"
-   crs:SharpenDetail="25"
-   crs:SharpenEdgeMasking="0"
+   crs:Sharpness="0"
    crs:LuminanceSmoothing="0"
    crs:ColorNoiseReduction="25"
    crs:ColorNoiseReductionDetail="50"
@@ -151,7 +148,12 @@
    crs:PerspectiveX="0.00"
    crs:PerspectiveY="0.00"
    crs:GrainAmount="0"
-   crs:PostCropVignetteAmount="0"
+   crs:PostCropVignetteAmount="-12"
+   crs:PostCropVignetteMidpoint="50"
+   crs:PostCropVignetteFeather="86"
+   crs:PostCropVignetteRoundness="+58"
+   crs:PostCropVignetteStyle="1"
+   crs:PostCropVignetteHighlightContrast="0"
    crs:ShadowTint="0"
    crs:RedHue="0"
    crs:RedSaturation="0"
@@ -160,7 +162,6 @@
    crs:BlueHue="0"
    crs:BlueSaturation="0"
    crs:HDREditMode="0"
-   crs:CurveRefineSaturation="100"
    crs:OverrideLookVignette="False"
    crs:ToneCurveName2012="Custom"
    crs:CameraProfile="Adobe Standard"
@@ -190,20 +191,21 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:f05271cf-d193-5c4b-8377-c40a86de6953"
-      stEvt:when="2024-12-12T23:52:39+09:00"
+      stEvt:instanceID="xmp.iid:ca8e33eb-b54e-654b-9008-0bada25c2d9e"
+      stEvt:when="2024-12-13T10:43:13+09:00"
       stEvt:softwareAgent="Adobe Lightroom 7.3 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
    </xmpMM:History>
    <crs:ToneCurvePV2012>
     <rdf:Seq>
-     <rdf:li>50, 16</rdf:li>
-     <rdf:li>87, 44</rdf:li>
-     <rdf:li>112, 86</rdf:li>
-     <rdf:li>190, 174</rdf:li>
-     <rdf:li>219, 216</rdf:li>
-     <rdf:li>255, 227</rdf:li>
+     <rdf:li>51, 8</rdf:li>
+     <rdf:li>78, 31</rdf:li>
+     <rdf:li>100, 55</rdf:li>
+     <rdf:li>121, 75</rdf:li>
+     <rdf:li>166, 147</rdf:li>
+     <rdf:li>221, 204</rdf:li>
+     <rdf:li>255, 255</rdf:li>
     </rdf:Seq>
    </crs:ToneCurvePV2012>
    <crs:ToneCurvePV2012Red>

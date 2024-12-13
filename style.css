@@ -1,6 +1,12 @@
 body {
+    width: 100%;
+    height: 100%;
+    cursor: none;
+    cursor: url(/cursor/cursor-2.png), default;
     background-color: black;
-    color: white;
+    color: rgb(0, 0, 0);
+}
+.SNULUF {
     margin: 100px;
 }
 
@@ -10,13 +16,16 @@ body {
     font-size: 150%;
     font-weight: 400;
     font-style: normal;
-    top:-35px;
-    z-index: 10; /* テキストを画像より前面に */
-    position: relative; /* テキストの位置を調整 */
+    top: -35px;
+    z-index: 10;
+    /* テキストを画像より前面に */
+    position: relative;
+    /* テキストの位置を調整 */
 }
 
 .TextImageGroup {
-    position: relative; /* 親要素にrelativeを設定 */
+    position: relative;
+    /* 親要素にrelativeを設定 */
 }
 
 .subtext {
@@ -27,113 +36,154 @@ body {
     line-height: 11px;
     font-style: normal;
     max-width: 1500%;
-    top:15px;
-    position: relative; /* 親要素にrelative */
-    z-index: 10; /* テキストの上に画像を表示するため */
+    top: 15px;
+    position: relative;
+    /* 親要素にrelative */
+    z-index: 10;
+    /* テキストの上に画像を表示するため */
 }
 
 /* sharpbox_1の配置 */
 .sharp_table_box_1 {
     height: 400px;
-    display: flex; /* 横並びに配置 */
-    flex-wrap: nowrap; /* 改行を防ぐ */
-    overflow-x: auto; /* 横スクロールを有効に */
-    scroll-behavior: smooth; /* スムーズスクロール */
-    gap: 9px; /* 画像間のスペースを調整可能 */
-    max-width: 100%; /* スクロール可能エリアの幅を調整 */
-    margin: 0px; /* コンテナを中央に配置 */
+    display: flex;
+    /* 横並びに配置 */
+    flex-wrap: nowrap;
+    /* 改行を防ぐ */
+    overflow-x: auto;
+    /* 横スクロールを有効に */
+    scroll-behavior: smooth;
+    /* スムーズスクロール */
+    gap: 9px;
+    /* 画像間のスペースを調整可能 */
+    max-width: 100%;
+    /* スクロール可能エリアの幅を調整 */
+    margin: 0px;
+    /* コンテナを中央に配置 */
     margin-top: 40px;
-    background-color: rgba(0, 0, 0, 0.504); /* 背景を薄い黒に */
-    border-radius: 0px; /* コンテナの角を丸く */
-    white-space: nowrap; /* 内容が一列に並ぶよう設定 */
+    background-color: rgba(0, 0, 0, 0.504);
+    /* 背景を薄い黒に */
+    border-radius: 0px;
+    /* コンテナの角を丸く */
+    white-space: nowrap;
+    /* 内容が一列に並ぶよう設定 */
 }
 
 .sharp_table_box_1 img {
-    width: auto; /* 画像の幅を自動調整 */
-    height: 100%; /* 高さを一定に設定 */
-    flex-shrink: 0; /* 画像が縮小されないように */
-    object-fit: contain; /* 画像の比率を保持 */
+    width: auto;
+    /* 画像の幅を自動調整 */
+    height: 100%;
+    /* 高さを一定に設定 */
+    flex-shrink: 0;
+    /* 画像が縮小されないように */
+    object-fit: contain;
+    /* 画像の比率を保持 */
 
-    background-image: url('/Image/sharp-13.jpg');  /* 画像のパス */
-    background-repeat: repeat-x;  /* 横方向に繰り返す */
-    background-position: top left;  /* 画像の配置位置 */
+    background-image: url('/Image/sharp-13.jpg');
+    /* 画像のパス */
+    background-repeat: repeat-x;
+    /* 横方向に繰り返す */
+    background-position: top left;
+    /* 画像の配置位置 */
 }
 
 .sharp_table_box_1::-webkit-scrollbar {
     width: 0px;
-    height: 0px; /* スクロールバーの高さ */
+    height: 0px;
+    /* スクロールバーの高さ */
 }
 
 .sharp_table_box_1::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0); /* スクロールバーの色 */
+    background: rgb(0, 0, 0);
+    /* スクロールバーの色 */
     border-radius: 0px;
 }
 
 .sharp_table_box_1::-webkit-scrollbar-thumb:hover {
-    background: rgb(128, 128, 128); /* ホバー時の色 */
+    background: rgb(128, 128, 128);
+    /* ホバー時の色 */
 }
 
 @media (prefers-reduced-motion) {
     .sharp_table_box_1 {
-      scroll-behavior: auto;
+        scroll-behavior: auto;
     }
-  }
-  .sharp {
+}
 
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  width: 100%;
-  }
+.sharp {
+
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+}
 
 /* sharpbox_2の配置 */
 
 .sharp_table_box_2 {
     height: 600px;
-    display: flex; /* 横並びに配置 */
-    flex-wrap: nowrap; /* 改行を防ぐ */
-    overflow-x: auto; /* 横スクロールを有効に */
-    scroll-behavior: smooth; /* スムーズスクロール */
-    gap: 0px; /* 画像間のスペースを調整可能 */
-    max-width: 100%; /* スクロール可能エリアの幅を調整 */
-    margin: 0px; /* コンテナを中央に配置 */
-    background-color: rgba(0, 0, 0, 0.504); /* 背景を薄い黒に */
-    border-radius: 0px; /* コンテナの角を丸く */
-    white-space: nowrap; /* 内容が一列に並ぶよう設定 */
+    display: flex;
+    /* 横並びに配置 */
+    flex-wrap: nowrap;
+    /* 改行を防ぐ */
+    overflow-x: auto;
+    /* 横スクロールを有効に */
+    scroll-behavior: smooth;
+    /* スムーズスクロール */
+    gap: 0px;
+    /* 画像間のスペースを調整可能 */
+    max-width: 100%;
+    /* スクロール可能エリアの幅を調整 */
+    margin: 0px;
+    /* コンテナを中央に配置 */
+    background-color: rgba(0, 0, 0, 0.504);
+    /* 背景を薄い黒に */
+    border-radius: 0px;
+    /* コンテナの角を丸く */
+    white-space: nowrap;
+    /* 内容が一列に並ぶよう設定 */
     margin-top: 6px;
 }
 
 .sharp_table_box_2 img {
-    width: auto; /* 画像の幅を自動調整 */
-    height: 100%; /* 高さを一定に設定 */
-    flex-shrink: 0; /* 画像が縮小されないように */
-    object-fit: contain; /* 画像の比率を保持 */
+    width: auto;
+    /* 画像の幅を自動調整 */
+    height: 100%;
+    /* 高さを一定に設定 */
+    flex-shrink: 0;
+    /* 画像が縮小されないように */
+    object-fit: contain;
+    /* 画像の比率を保持 */
 }
 
 .sharp_table_box_2::-webkit-scrollbar {
     width: 0px;
-    height: 0px; /* スクロールバーの高さ */
+    height: 0px;
+    /* スクロールバーの高さ */
 }
 
 .sharp_table_box_2::-webkit-scrollbar-thumb {
-    background: rgb(0, 0, 0); /* スクロールバーの色 */
+    background: rgb(0, 0, 0);
+    /* スクロールバーの色 */
     border-radius: 0px;
 }
 
 .sharp_table_box_2::-webkit-scrollbar-thumb:hover {
-    background: rgb(0, 0, 0); /* ホバー時の色 */
+    background: rgb(0, 0, 0);
+    /* ホバー時の色 */
 }
 
 @media (prefers-reduced-motion) {
     .sharp_table_box_2 {
-      scroll-behavior: auto;
+        scroll-behavior: auto;
     }
-  }
-  .sharp {
+}
 
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  width: 100%;
-  }
+.sharp {
+
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+}
 
 .sharp_table_box_3 {
     margin-top: 25px;
@@ -143,22 +193,44 @@ body {
 }
 
 .sharp_table_box_3 img {
-    width: 100%; /* 画像の幅を自動調整 */
-    flex-shrink: 0; /* 画像が縮小されないように */
-    object-fit: contain; /* 画像の比率を保持 */
+    width: 100%;
+    /* 画像の幅を自動調整 */
+    flex-shrink: 0;
+    /* 画像が縮小されないように */
+    object-fit: contain;
+    /* 画像の比率を保持 */
     z-index: 1;
 }
+
 .snlufulogo {
     position: absolute;
-    top: 50%; /* 親要素の50%の位置 */
-    left: 50%; /* 親要素の50%の位置 */
-    transform: translate(-50%, -50%); /* 完全に中央揃え */
-    color: white; /* テキストの色 */
-    font-size: 150%; /* 必要に応じて調整 */
-    font-weight: 100; /* 必要に応じて調整 */
-    text-align: center; /* テキストを中央揃え */
-    z-index: 1; /* 必要に応じてテキストを最前面に */
+    top: 50%;
+    /* 親要素の50%の位置 */
+    left: 50%;
+    /* 親要素の50%の位置 */
+    transform: translate(-50%, -50%);
+    /* 完全に中央揃え */
+    color: white;
+    /* テキストの色 */
+    text-align: center;
+    /* テキストを中央揃え */
+    z-index: 1;
+    /* 必要に応じてテキストを最前面に */
 }
+
+.logo {
+    font-size: 40px;
+    /* 必要に応じて調整 */
+    font-weight: 100;
+    /* 必要に応じて調整 */
+}
+
 .sublogo {
-    size: 50px;
+    margin-top: 25px;
+    font-family: "AB-digicomb", sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    left: 50%;
+    line-height: 0px;
+    font-size: 14px;
 }
